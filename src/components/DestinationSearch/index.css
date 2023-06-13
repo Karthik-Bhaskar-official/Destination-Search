@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bg-container {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  padding-left: 0px;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.heading {
+  color: #252627;
+  font-size: 52px;
+  text-align: center;
+}
+input {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-family: 'Open Sans';
+  background-color: transparent;
+  cursor: text;
+}
+.input-container {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 280px;
+}
+
+.img {
+  height: 25px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .bg-container {
+    padding: 40px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .containers {
+    padding-left: 60px;
+  }
+  .containers {
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+}
